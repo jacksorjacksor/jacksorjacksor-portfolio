@@ -19,9 +19,8 @@
     />
   </head>
   <body>
-    <!-- Create nav bar utilising Bootstrap 5 classes -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
+      <div class="container">
         <a class="navbar-brand" href="#">JacksorJacksor</a>
         <button
           class="navbar-toggler"
@@ -34,24 +33,16 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="#navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="biography"
-                >Biography</a
-              >
-            </li>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="#releases">Releases</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#spotify">Spotify</a>
+              <a class="nav-link" href="#videos">Videos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#videos">Videos</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
           </ul>
         </div>
@@ -65,8 +56,8 @@
       <section id="intro" class="blackTextWhiteBackground p-5">
         <div class="p-3">
           <h2 class="display-3">
-            <b>JacksorJacksor</b> is the<br />creative identity of
-            <br />Cardiff-based musician<br /><b>Richard Jackson</b>
+            <b>JacksorJacksor</b> is the creative identity of Cardiff-based
+            musician <b>Richard Jackson</b>
           </h2>
         </div>
         <img
@@ -80,7 +71,7 @@
         <h2 class="display-2">Releases</h2>
         <h3 class="display-3">Spotify</h3>
         <div class="container" id="Spotify-items">
-          <div class="row">
+          <div class="row grid">
             <div class="col-lg-4 col-md-6 col-sm-12 spotify-item">
               <iframe
                 src="https://open.spotify.com/embed/album/0i4dLU5vOnzDMk94HvoXjG"
@@ -115,7 +106,7 @@
         </div>
         <h3 class="display-3">Bandcamp</h3>
         <div class="container">
-          <div class="row">
+          <div class="row grid">
             <div class="col-lg-4 col-md-6 col-sm-12">
               <div class="embed-responsive embed-responsive-1by1">
                 <iframe
@@ -170,7 +161,7 @@
         <h2 class="display-2">Videos</h2>
 
         <div class="container">
-          <div class="row">
+          <div class="row grid">
             <div class="col-lg-4 col-md-6 col-sm-12">
               <div class="embed-responsive embed-responsive-1by1">
                 <iframe
@@ -214,7 +205,7 @@
         </div>
 
         <div class="container-fluid border-3 col-xxl-12 px-5 py-3">
-          <div class="row flex align-items-center g-5 py-3">
+          <div class="row flex align-items-center g-5 py-3 grid">
             <div class="col-12 col-sm-12 col-lg-12">
               <div class="ratio ratio-16x9 m-0 p-0">
                 <iframe
@@ -358,5 +349,6 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
