@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JacksorJacksor Portfolio</title>
+    <!-- Link to Poppins font cdn -->
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet" />
+    <!-- Link to Bootstrap 5 cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Create nav bar utilising Bootstrap 5 classes -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">JacksorJacksor</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="#navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="biography"
+                >Biography</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#releases">Releases</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#spotify">Spotify</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#videos">Videos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Create a header section which fills a full viewport height, has a black background and has the image JacksorJackorLogoWhiteOnAlpha.png as the background image -->
+    <header class="full-viewport-header"></header>
+
+    <main>
+      <section id="intro" class="blackTextWhiteBackground p-5">
+        <div class="p-3">
+          <h2 class="display-3">
+            <b>JacksorJacksor</b> is the<br />creative identity of
+            <br />Cardiff-based musician<br /><b>Richard Jackson</b>
+          </h2>
+        </div>
+        <img
+          id="profile-image"
+          src="/assets/images/Me-guitar-bw-square.png"
+          alt="JacksorJacksor"
+        />
+      </section>
+
+      <section id="releases" class="whiteTextBlackBackground p-8">
+        <h2 class="display-2">Releases</h2>
+        <h3 class="display-3">Spotify</h3>
+        <div class="container" id="Spotify-items">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 spotify-item">
+              <iframe
+                src="https://open.spotify.com/embed/album/0i4dLU5vOnzDMk94HvoXjG"
+                width="300"
+                height="380"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 spotify-item">
+              <iframe
+                src="https://open.spotify.com/embed/album/1roLTVoMUKdmtafLKBkLEw"
+                width="300"
+                height="380"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 spotify-item">
+              <iframe
+                src="https://open.spotify.com/embed/album/3ycMYrN1CmfZ7JHVWOa1wP"
+                width="300"
+                height="380"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <h3 class="display-3">Bandcamp</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="embed-responsive embed-responsive-1by1">
+                <iframe
+                  style="border: 0; width: 350px; height: 470px"
+                  src="https://bandcamp.com/EmbeddedPlayer/album=4070829614/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+                  seamless
+                  ><a href="https://jacksorjacksor.bandcamp.com/album/wysiwyg"
+                    >wysiwyg by JacksorJacksor | Richard Jackson</a
+                  ></iframe
+                >
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="embed-responsive embed-responsive-1by1">
+                <iframe
+                  style="border: 0; width: 350px; height: 470px"
+                  src="https://bandcamp.com/EmbeddedPlayer/album=2104768114/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+                  seamless
+                  ><a
+                    href="https://jacksorjacksor.bandcamp.com/album/woodlands-ep"
+                    >woodlands EP by JacksorJacksor | Richard Jackson</a
+                  ></iframe
+                >
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="embed-responsive embed-responsive-1by1">
+                <iframe
+                  style="border: 0; width: 350px; height: 470px"
+                  src="https://bandcamp.com/EmbeddedPlayer/album=1989558817/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+                  seamless
+                  ><a
+                    href="https://jacksorjacksor.bandcamp.com/album/normalised-ep"
+                    >Normalised EP by JacksorJacksor | Richard Jackson</a
+                  ></iframe
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a
+          href="https://jacksorjacksor.bandcamp.com/"
+          class="btn btn-primary p-3 my-3 mx-auto"
+          target="_blank"
+          style="display: block; width: 10rem"
+          >Listen to more</a
+        >
+      </section>
+
+      <section id="videos" class="blackTextWhiteBackground p-8">
+        <h2 class="display-2">Videos</h2>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="embed-responsive embed-responsive-1by1">
+                <iframe
+                  width="315"
+                  height="560"
+                  src="https://www.youtube.com/embed/2Mubw6Zf0-M"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="embed-responsive embed-responsive-1by1">
+                <iframe
+                  width="315"
+                  height="560"
+                  src="https://www.youtube.com/embed/T8WJOWpvcxI"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="embed-responsive embed-responsive-1by1">
+                <iframe
+                  width="315"
+                  height="560"
+                  src="https://www.youtube.com/embed/6EKxKbWGfDU"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid border-3 col-xxl-12 px-5 py-3">
+          <div class="row flex align-items-center g-5 py-3">
+            <div class="col-12 col-sm-12 col-lg-12">
+              <div class="ratio ratio-16x9 m-0 p-0">
+                <iframe
+                  class=""
+                  style="min-width: 280px; min-height: 157px"
+                  width="560px"
+                  height="315px"
+                  src="https://www.youtube.com/embed/Yl-1RiUxIJs?si=kozlcZYzdUISBiui?controls=0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="row flex align-items-center g-5 py-3">
+            <div class="col-12 col-sm-12 col-lg-12">
+              <div class="ratio ratio-16x9 m-0 p-0">
+                <iframe
+                  class=""
+                  style="min-width: 280px; min-height: 157px"
+                  width="560px"
+                  height="315px"
+                  src="https://www.youtube.com/embed/j6ytnq5Tksg?si=kqCx5Mkl4wJ4cokE"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="row flex align-items-center g-5 py-3">
+            <div class="col-12 col-sm-12 col-lg-12">
+              <div class="ratio ratio-16x9 m-0 p-0">
+                <iframe
+                  class=""
+                  style="min-width: 280px; min-height: 157px"
+                  width="560px"
+                  height="315px"
+                  src="https://www.youtube.com/embed/fBMIexlE7TM?si=YGjlQDKRbDco7zNN"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a
+          href="https://www.youtube.com/jacksorjacksor/"
+          class="btn btn-primary p-3 my-3 mx-auto"
+          target="_blank"
+          style="display: block; width: 10rem"
+          >Watch more</a
+        >
+      </section>
+
+      <section id="biography" class="whiteTextBlackBackground p-3">
+        <h2 class="display-2">About</h2>
+        <div class="biography">
+          <p>
+            Having released music since 2008, Rich's work has been used on film,
+            stage and video games, and is known for its eclecticism, classical
+            foundations and creative implementation. His previous band Albatross
+            Archive received critical acclaim for its highly technical
+            performances and angular song structures, with live shows being
+            accompanied by the visuals of Matt Creed. After Albatross Archive
+            disbanded, Rich briefly released music under his own name before
+            creating JacksorJacksor.
+          </p>
+
+          <p>
+            Since the recording of 2023's EP GoodChaos, JacksorJacksor has
+            expanded from solo performances into a multi instrumental chamber
+            pop ensemble, taking inspiration from The Divine Comedy and Want-era
+            Rufus Wainwright. Their performances are marked by the intricacy of
+            arrangements and diversity of instrumentation. The extended
+            musicians perform under the name "The Lovely Ensemble" or the
+            "Jacksorchestra".
+          </p>
+        </div>
+        <img
+          id="biography-image"
+          src="/assets/images/JacksorJacksor-band-04.jpg"
+          alt="JacksorJacksor"
+          style="display: block; margin: auto"
+          width="80%"
+        />
+
+        <p class="text-center">
+          JacksorJacksor and the Lovely Ensemble recording GoodChaos at MusicBox
+          Studios, May 2023
+        </p>
+      </section>
+    </main>
+
+    <section id="outro" class="blackTextWhiteBackground p-3">
+      <p class="display-1 text-center">Thanks for visiting!<br /></p>
+      <p class="display-3 text-center">- Rich</p>
+    </section>
+
+    <footer class="text-center mt-5 whiteTextBlackBackground">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="social-media mt-3">
+              <a
+                class="btn btn-outline-light btn-social mx-1"
+                href="https://www.facebook.com/jacksorjacksormusic"
+                target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn btn-outline-light btn-social mx-1"
+                href="https://www.twitter.com/jacksorjacksor"
+                target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn btn-outline-light btn-social mx-1"
+                href="https://www.instagram.com/jacksorjacksor"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                class="btn btn-outline-light btn-social mx-1"
+                href="https://www.youtube.com/jacksorjacksor"
+                target="_blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a
+                class="btn btn-outline-light btn-social mx-1"
+                href="https://www.tiktok.com/@jacksorjacksor"
+                target="_blank"
+              >
+                <i class="fab fa-tiktok"></i>
+              </a>
+            </div>
+            <div class="copyright mt-3">
+              &copy; <span id="copyright-year"></span> Richard Jackson. All
+              rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
