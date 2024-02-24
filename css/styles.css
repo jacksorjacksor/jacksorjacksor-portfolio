@@ -77,12 +77,13 @@
 }
 
 #profile-image {
-  height: 30em;
+  max-height: 30em;
   width: auto;
   /* Center the image */
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
 }
 
 h1,
@@ -116,16 +117,33 @@ h4 {
   }
 }
 
-@media (min-width: 992px) {
-  #navbarNav {
-    justify-content: flex-end;
-  }
-}
-
 @media (max-width: 576px) {
   .grid iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(15px);
+  transition: opacity 0.5s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+}
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
+.iframe-container {
+  display: grid;
+  place-items: center;
+  align-items: center;
 }

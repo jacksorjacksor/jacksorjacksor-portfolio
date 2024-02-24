@@ -50,29 +50,34 @@
     </nav>
 
     <!-- Create a header section which fills a full viewport height, has a black background and has the image JacksorJackorLogoWhiteOnAlpha.png as the background image -->
-    <header class="full-viewport-header"></header>
+    <header class="full-viewport-header hidden"></header>
 
     <main>
       <section id="intro" class="blackTextWhiteBackground p-5">
         <div class="p-3">
           <h2 class="display-3">
-            <b>JacksorJacksor</b> is the creative identity of Cardiff-based
-            musician <b>Richard Jackson</b>
+            <span class="hidden"><b>JacksorJacksor</b></span
+            ><span class="hidden"> is the creative identity of</span>
+            <span class="hidden">Cardiff-based musician</span>
+            <span class="hidden"><b>Richard Jackson</b></span>
           </h2>
         </div>
         <img
           id="profile-image"
           src="/assets/images/Me-guitar-bw-square.png"
           alt="JacksorJacksor"
+          class="hidden"
         />
       </section>
 
       <section id="releases" class="whiteTextBlackBackground p-8">
-        <h2 class="display-2">Releases</h2>
-        <h3 class="display-3">Spotify</h3>
+        <h2 class="display-2 hidden">Releases</h2>
+        <h3 class="display-3 hidden">Spotify</h3>
         <div class="container" id="Spotify-items">
           <div class="row grid">
-            <div class="col-lg-4 col-md-6 col-sm-12 spotify-item">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 spotify-item hidden iframe-container"
+            >
               <iframe
                 src="https://open.spotify.com/embed/album/0i4dLU5vOnzDMk94HvoXjG"
                 width="300"
@@ -82,7 +87,9 @@
                 allow="encrypted-media"
               ></iframe>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 spotify-item">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 spotify-item hidden iframe-container"
+            >
               <iframe
                 src="https://open.spotify.com/embed/album/1roLTVoMUKdmtafLKBkLEw"
                 width="300"
@@ -92,7 +99,9 @@
                 allow="encrypted-media"
               ></iframe>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 spotify-item">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 spotify-item iframe-container"
+            >
               <iframe
                 src="https://open.spotify.com/embed/album/3ycMYrN1CmfZ7JHVWOa1wP"
                 width="300"
@@ -108,7 +117,9 @@
         <div class="container">
           <div class="row grid">
             <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="embed-responsive embed-responsive-1by1">
+              <div
+                class="embed-responsive embed-responsive-1by1 hidden iframe-container"
+              >
                 <iframe
                   style="border: 0; width: 350px; height: 470px"
                   src="https://bandcamp.com/EmbeddedPlayer/album=4070829614/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
@@ -120,7 +131,9 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="embed-responsive embed-responsive-1by1">
+              <div
+                class="embed-responsive embed-responsive-1by1 hidden iframe-container"
+              >
                 <iframe
                   style="border: 0; width: 350px; height: 470px"
                   src="https://bandcamp.com/EmbeddedPlayer/album=2104768114/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
@@ -133,7 +146,9 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="embed-responsive embed-responsive-1by1">
+              <div
+                class="embed-responsive embed-responsive-1by1 hidden iframe-container"
+              >
                 <iframe
                   style="border: 0; width: 350px; height: 470px"
                   src="https://bandcamp.com/EmbeddedPlayer/album=1989558817/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
@@ -163,7 +178,9 @@
         <div class="container">
           <div class="row grid">
             <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="embed-responsive embed-responsive-1by1">
+              <div
+                class="embed-responsive embed-responsive-1by1 hidden iframe-container"
+              >
                 <iframe
                   width="315"
                   height="560"
@@ -176,7 +193,9 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="embed-responsive embed-responsive-1by1">
+              <div
+                class="embed-responsive embed-responsive-1by1 hidden iframe-container"
+              >
                 <iframe
                   width="315"
                   height="560"
@@ -189,7 +208,9 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="embed-responsive embed-responsive-1by1">
+              <div
+                class="embed-responsive embed-responsive-1by1 hidden iframe-container"
+              >
                 <iframe
                   width="315"
                   height="560"
@@ -207,7 +228,7 @@
         <div class="container-fluid border-3 col-xxl-12 px-5 py-3">
           <div class="row flex align-items-center g-5 py-3 grid">
             <div class="col-12 col-sm-12 col-lg-12">
-              <div class="ratio ratio-16x9 m-0 p-0">
+              <div class="ratio ratio-16x9 m-0 p-0 iframe-container hidden">
                 <iframe
                   class=""
                   style="min-width: 280px; min-height: 157px"
@@ -221,7 +242,7 @@
           </div>
           <div class="row flex align-items-center g-5 py-3">
             <div class="col-12 col-sm-12 col-lg-12">
-              <div class="ratio ratio-16x9 m-0 p-0">
+              <div class="ratio ratio-16x9 m-0 p-0 iframe-container hidden">
                 <iframe
                   class=""
                   style="min-width: 280px; min-height: 157px"
@@ -235,7 +256,7 @@
           </div>
           <div class="row flex align-items-center g-5 py-3">
             <div class="col-12 col-sm-12 col-lg-12">
-              <div class="ratio ratio-16x9 m-0 p-0">
+              <div class="ratio ratio-16x9 m-0 p-0 iframe-container hidden">
                 <iframe
                   class=""
                   style="min-width: 280px; min-height: 157px"
@@ -289,7 +310,6 @@
           style="display: block; margin: auto"
           width="80%"
         />
-
         <p class="text-center">
           JacksorJacksor and the Lovely Ensemble recording GoodChaos at MusicBox
           Studios, May 2023
@@ -348,7 +368,7 @@
       </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script defer src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
