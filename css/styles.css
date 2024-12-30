@@ -2,6 +2,8 @@
 
 :root {
   --bs-font-sans-serif: "Poppins", sans-serif;
+  --jj-pink: rgb(255, 153, 150);
+  --jj-yellow: rgb(238, 232, 82);
 }
 
 /* Reset */
@@ -146,4 +148,20 @@ h4 {
   display: grid;
   place-items: center;
   align-items: center;
+}
+
+/* SAM */
+/* - TODO: build CSS from sam folder into here */
+span.sam {
+  color: var(--jj-yellow);
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
+  border-style: none;
+}
+
+p {
+  font-size: 20px;
 }

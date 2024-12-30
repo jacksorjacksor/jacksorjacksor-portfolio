@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+:root {
+  --bs-body-bg: #010101;
+  --jj-pink: rgb(255, 153, 150);
+  --jj-yellow: rgb(238, 232, 82);
+}
+
+* {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+  color: aliceblue;
+  line-height: 2;
+}
+
+body {
+  background-image: url("../media/background/_SAM\ artwork_dark_background_1000x1000.png");
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+}
+
+.hero {
+  color: aliceblue;
+}
+
+/* _SAM */
+
+a {
+  font-weight: bold;
+}
+
+span.sam {
+  color: var(--jj-yellow);
+  font-size: inherit;
+}
+
+span.jacksorjacksor {
+  color: var(--jj-pink);
+  font-size: inherit;
+}
+
+span.source-title {
+  font-weight: bold;
+  color: var(--jj-yellow);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.lyrics p {
+  font-style: italic;
+}
+
+.section-heading {
+  font-weight: bold;
+  color: var(--jj-pink);
+  text-align: center;
+  padding-top: 1rem;
+  text-transform: uppercase;
+}
+
+.track-title {
+  text-align: center;
+  padding-top: 1rem;
+  color: var(--jj-pink);
+  font-weight: bolder;
+}
+
+.track-subtitle {
+  font-style: italic;
+  text-align: center;
+}
+
+.track-subheading {
+  text-align: center;
+}
+
+.track-image {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: block;
+  margin: auto;
+  height: 400px;
+}
+
+.image-break {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.image-break img {
+  width: 100%;
+}
+
+.track-facts li {
+  padding-bottom: 1rem;
+}
+
+/* VIDEO */
+iframe {
+  margin: 0 auto;
+  display: block;
+  border-style: none;
+}
+
+.main-image {
+  margin-top: 2rem;
+}
+
+.closing {
+  padding-top: 3rem;
+}
+
+.closing p {
+  text-align: center;
+  font-size: x-large;
+}
+
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
