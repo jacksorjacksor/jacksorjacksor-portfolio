@@ -86,6 +86,10 @@ span.source-title {
   height: 400px;
 }
 
+.track-list {
+  list-style: none;
+}
+
 .image-break {
   padding-top: 2rem;
   padding-bottom: 1rem;
