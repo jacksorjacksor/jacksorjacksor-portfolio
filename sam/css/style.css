@@ -86,7 +86,7 @@ span.source-title {
   height: 400px;
 }
 
-.track-list {
+.track-list, .social-links {
   list-style: none;
 }
 
